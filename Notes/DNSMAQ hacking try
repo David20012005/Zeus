@@ -1,0 +1,21 @@
+[
+  "Article mentions using bettercap's dns.spoof module with target domain and spoof IP.",
+  "The article's attack is not a dnsmasq CVE exploit but using Bettercap DNS spoofing on a network where the gateway runs dnsmasq 2.51.",
+  "The tool will need to: 1) find gateway, 2) scan for dnsmasq version, 3) optionally launch Bettercap with dns.spoof.",
+  "Bettercap can be automated via -eval flag or REST API.",
+  "Script uses nmap -sV for version detection fallback with dig",
+  "Supports both direct IP redirection and hosting a local HTML file",
+  "Auto-re-runs with sudo if not root",
+  "Runs Bettercap with -eval flag for full automation",
+  "The tool has been written to ~/Documents/Zeus/tools/hotspot_redirect.py",
+  "Need to verify there are no Python syntax errors before marking the step done",
+  "Script location: /home/king/Documents/Zeus/tools/hotspot_redirect.py",
+  "Chmod 755 applied",
+  "Syntax verified OK",
+  "Testing in a live environment requires the user to be on a vulnerable hotspot",
+  "The article's technique is DNS cache poisoning via ARP spoofing + Bettercap",
+  "dnsmasq 2.51 lacks protections like DNSSEC validation and rate limiting",
+  "Our tool implements the exact same workflow: gateway detection -> version check -> Bettercap DNS spoofing",
+  "iptables is required by Bettercap for NAT/forwarding rules during spoofing",
+  "dig provides CHAOS query fallback if nmap fails"
+]

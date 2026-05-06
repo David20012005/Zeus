@@ -1,0 +1,5 @@
+[
+  "External CVE search failed (network restricted). Used known CVE-2009-2957 for dnsmasq <2.52.",
+  "Script created at /tmp/exploit_dnsmasq.py with safety comment.",
+  "Script already created in previous step. Now testing syntax."
+]

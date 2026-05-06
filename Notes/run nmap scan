@@ -1,0 +1,14 @@
+[
+  "Primary subnet: 10.212.169.0/24",
+  "Docker networks: 172.19.0.0/16, 172.17.0.0/16",
+  "Possible internal network: 10.255.23.0/24",
+  "Will focus on 10.212.169.0/24 first as it's likely your main LAN",
+  "Timeout occurred with default nmap settings",
+  "Adjusting parameters: --max-retries 1, --host-timeout 30s",
+  "nmap -sn timed out twice",
+  "Trying alternative: arp-scan or targeted pings",
+  "nmap -sn timed out twice",
+  "arp-scan with sudo timed out",
+  "Will attempt manual ping-based discovery with short timeouts",
+  "Ping to gateway 10.212.169.1 failed"
+]
